@@ -1,0 +1,21 @@
+Here's a `.gitignore` file for you that ignores all files with the extensions you specified:
+
+```
+# Object files and binaries
+*.bc
+*.o
+*.out
+
+# Assembly and LLVM IR files
+*.s
+*.ll
+
+# Custom extension
+*.hipi
+*.dot
+
+# Optional: Add common OS and editor specific files
+.DS_Store
+.vscode/
+.idea/
+```
